@@ -6,12 +6,15 @@ on:
       nome:
         description: "Quem você quer cumprimentar?"
         required: true
-        default: "turma"
+        default: "DevOps"
+        type: choice
+        options:
+          - "DevOps"
+          - "Engenharia"
+          - "Turma"
   push:
     paths:
       - "src/**"
-  schedule:
-    - cron: "*/5 * * * *"
 
 jobs:
   cumprimentar:
