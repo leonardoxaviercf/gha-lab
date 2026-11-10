@@ -1,0 +1,13 @@
+name: 01 Contexto completo
+
+on:
+  workflow_dispatch:
+
+jobs:
+  despejar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Contexto github em JSON
+        env:
+          CTX: ${{ toJSON(github) }}
+        run: echo "$CTX"
