@@ -1,3 +1,4 @@
+![CI](https://github.com/leonardoxaviercf/gha-lab/actions/workflows/ci.yml/badge.svg)
 # gha-lab
 
 Projeto-base do laboratório de GitHub Actions (Aula 2): um pacote Python mínimo
